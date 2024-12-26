@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Alan
+title: sitong
 avatar: https://blog-alan.oss-cn-hangzhou.aliyuncs.com/head/heads.png #https://blog-alan.oss-cn-hangzhou.aliyuncs.com/hexo_blog/head/head.jpg
 favicon: https://blog-alan.oss-cn-hangzhou.aliyuncs.com/head/heads.png
 subtitle: ''
-description: ''
+description: '欢迎光临小站，本站是一个现代科学创新烹饪分享站点'
 keywords:
-author: Alan
+author: sitong
 language:
   - zh-CN
   - en
@@ -105,7 +105,3 @@ theme: stellar
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: git@github.com:Alanosy/alanosy.github.io.git
-  branch: master

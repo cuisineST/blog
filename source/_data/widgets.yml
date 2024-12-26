@@ -6,7 +6,7 @@ welcome:
   layout: markdown
   title: 欢迎
   content: |
-    欢迎光临小站，采用Hexo开源主题Stellar，此刚使用不久，有些功能还在研究中，敬请期待......
+    欢迎光临小站，本站是一个现代科学创新烹饪分享站点
 toc:
   layout: toc
   list_number: false # 是否显示序号
