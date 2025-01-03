@@ -1,0 +1,81 @@
+sidebar:
+  menu:
+    index: '[首页](/index/)'
+    post: '[btn.blog](/)'
+    wiki: '[btn.wiki](/wiki/)'
+    # notes: '[笔记](/notes/)'
+    # more: '[更多](/more/)'
+  # logo:
+  #   title: '[<img no-lazy height="32px" src="https://blog-alan.oss-cn-hangzhou.aliyuncs.com/hexo_blog/CubikLogo.png"/>](/)'
+    
+
+# comments: service: beaudar
+#   beaudar:
+#     repo: alanosy/blog-comments
+# comments: 评论功能
+#   service: waline
+#   waline:
+#     js: https://unpkg.com/@waline/client@v2/dist/waline.js
+#     css: https://unpkg.com/@waline/client@v2/dist/waline.css
+#     # Waline server address url, you should set this to your own link
+#     serverURL:  # waline 地址
+#     # If false, comment count will only be displayed in post page, not in home page
+#     commentCount: true
+#     # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
+#     pageview: false
+
+#     # Custom locales
+#     # locale:
+#       # placeholder: # 输入框内提示文字
+
+#     # Custom emoji
+#     emoji: 
+#       - https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
+#       - https://unpkg.com/@waline/emojis@1.1.0/weibo
+#       - https://unpkg.com/@waline/emojis@1.1.0/alus
+#       - https://unpkg.com/@waline/emojis@1.1.0/bilibili
+#       - https://unpkg.com/@waline/emojis@1.1.0/qq
+#       - https://unpkg.com/@waline/emojis@1.1.0/tieba
+#       - https://unpkg.com/@waline/emojis@1.1.0/tw-emoji
+#       - https://unpkg.com/@waline/emojis@1.1.0/bmoji
+#     # Comment infomation, valid meta are nick, mail and link
+#     meta:
+#       - nick
+#       - mail
+#       - link
+#     # Set required meta field, e.g.: [nick] | [nick, mail]
+#     requiredMeta:
+#       - nick
+#       - mail
+#     # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
+#     lang: zh-CN
+#     # Whether enable login, can choose from 'enable', 'disable' and 'force'
+#     login: force
+#     # comment per page
+#     pageSize: 10
+
+article:
+    # auto_cover: true
+  auto_excerpt: 200
+# 文章搜索
+search:
+  service: local_search # local_search, todo...
+  local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    field: all # post, page, all
+    path: /search.json # 搜索文件存放位置
+    content: true # 是否搜索内容
+    codeblock: true # 是否搜索代码块（需要content: true)
+# footer:
+#   social:
+#     github:
+#       icon: '<img src="/assets/placeholder/social/08a41b181ce68.svg"/>'
+#       url: https://
+#     music:
+#       icon: '<img src="/assets/placeholder/social/3845874.svg"/>'
+#       url: https://
+#     unsplash:
+#       icon: '<img src="/assets/placeholder/social/3616429.svg"/>'
+#       url: https://
+#     comments:
+#       icon: '<img src="/assets/placeholder/social/942ebbf1a4b91.svg"/>'
+#       url: https://
