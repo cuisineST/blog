@@ -108,5 +108,5 @@ theme: stellar
 
 deploy:
   type: 'git'
-  repository: 'https://github.com/cuisineST/cuisineST.github.io.git'
+  repository: 'git@github.com:cuisineST/cuisineST.github.io.git'
   branch: master
