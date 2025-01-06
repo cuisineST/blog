@@ -1,2 +1,2 @@
 # blog_hexo
-个人博客
+SiTong个人博客
